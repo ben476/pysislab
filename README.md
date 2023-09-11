@@ -42,7 +42,7 @@ for sensor in get_sensors():
 ```python
 from pysislab import SensorTail
 
-for datagram in sensor_tail:
+for datagram in SensorTail(22):
     print(datagram.channel, datagram.timestamp, datagram.data)
 ```
 

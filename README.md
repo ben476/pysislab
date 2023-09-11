@@ -46,6 +46,6 @@ for datagram in sensor_tail:
     print(datagram.channel, datagram.timestamp, datagram.data)
 ```
 
-For more examples, see the [CLI implementation](src/pysislab/cli.py).
+For more examples, see the [CLI implementation](pysislab/cli.py).
 
-See the [models file](src/pysislab/models.py) for the full list of attributes available on each class.
+See the [models file](pysislab/models.py) for the full list of attributes available on each class.

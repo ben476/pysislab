@@ -1,0 +1,44 @@
+[project]
+name = "pysislab"
+version = "0.0.1"
+authors = [
+  { name="Ben Hong", email="benjamin.hong476@gmail.com" },
+]
+description = "Package to fetch data from the CRISiSLab seismometer network"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ben476/pysislab"
+"Bug Tracker" = "https://github.com/ben476/pysislab/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+dependencies = [
+    "annotated-types==0.5.0",
+    "certifi==2023.7.22",
+    "charset-normalizer==3.2.0",
+    "idna==3.4",
+    "importlib-metadata==6.8.0",
+    "markdown-it-py==3.0.0",
+    "mdurl==0.1.2",
+    "msgpack==1.0.5",
+    "pydantic==2.3.0",
+    "pydantic_core==2.6.3",
+    "Pygments==2.16.1",
+    "requests==2.31.0",
+    "rich==13.5.2",
+    "typeguard==4.1.5",
+    "typing_extensions==4.7.1",
+    "urllib3==2.0.4",
+    "websocket-client==1.6.3",
+    "zipp==3.16.2"
+]

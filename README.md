@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a client for CRISiSLab's Seismometer Network API using WebSockets and MessagePack.
+This is a client for [CRISiSLab's Seismometer Network](https://shakemap.crisislab.org.nz/) API using WebSockets and MessagePack.
 
 ## Installation
 
